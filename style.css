@@ -1,7 +1,9 @@
 body{
-  background-color: #343a40;
+  /* background-color: #343a40; */
+  background-image: url(./img/2.jpg);
 }
 
+/* Fonts Size and Colors */
 
 h1 {
   font-size: 60px;
@@ -24,12 +26,20 @@ h3 {
   text-decoration: azure;
 }
 
+/* Other Divs and Things */
+
+.nav{
+  color: #f8f9fa;
+}
+
 .img{
   max-width: 500px;
   max-height: 300px;
 }
 
+
+
 .page-footer{
-  background-color: #333;
+  background-color: gray;
 }
 
