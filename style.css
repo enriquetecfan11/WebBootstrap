@@ -1,45 +1,36 @@
-body{
-  /* background-color: #343a40; */
-  background-image: url(./img/2.jpg);
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Fonts Size and Colors */
-
-h1 {
-  font-size: 60px;
-  color: #f8f9fa;
-}
-
-h2 {
-  font-size: 32px;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #f8f9fa;
-}
-
-h3 {
-  font-size: 30px;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-decoration: azure;
-}
-
-/* Other Divs and Things */
-
-.nav{
-  color: #f8f9fa;
-}
-
-.img{
-  max-width: 500px;
-  max-height: 300px;
+h2{
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
+header.masthead{
+    background-image: url(../img/2.jpg);
+    padding-top: 5%;
+    padding-bottom: 5%;
 
-.page-footer{
-  background-color: gray;
 }
 
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem;
+}
