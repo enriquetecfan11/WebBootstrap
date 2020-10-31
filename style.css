@@ -1,3 +1,9 @@
+body{
+    display: block;
+    overflow-x: hidden;
+    
+}
+
 h1 {
     color: white;
     font-size: 50px;
@@ -64,3 +70,6 @@ page.footer {
     padding-bottom: 4rem;
     background-color: darkgray;
   }
+
+  git config --global user.name "John Doe"
+  git config --global user.email enriquemondejar15@gmail.com
